@@ -1,0 +1,18 @@
+  //   how to diclare the variable in php
+    $variable1 = 34;
+    $variable2 = 355;
+
+    // how to print($variable1,$variable2)
+      echo $variable1;
+      echo $variable2;
+
+
+      php is not a case sencitive language
+
+
+      type of operator in  php 
+      Arithmetic operator
+      assingment
+      conprasison
+      incriment
+      logical 
