@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img class="img" src="img/tcs.jpg" alt="TCS">
+    <div class="container">
+        <h1>Welcome To HIT Travel Form</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Thanks for submitting the form</p> 
+
+        <form action="index.php" method="post">
+            <input type="text" name="Name" id="Name" placeholder="Enter your name" required>
+            <input type="number" name="Age" id="Age" placeholder="Enter your age" required>
+            <input type="email" name="Email" id="Email" placeholder="Enter your email" required>
+            <input type="tel" name="Number" id="Number" placeholder="Enter your phone number" required>
+            <select name="Gender" id="Gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <textarea name="Text" id="Text" cols="30" rows="10" placeholder="Enter any query" required></textarea>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
